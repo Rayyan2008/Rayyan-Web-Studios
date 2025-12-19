@@ -11,6 +11,7 @@ export default function Consultation() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    phone: "",
     business: "",
     message: ""
   })
@@ -28,9 +29,11 @@ export default function Consultation() {
     setError("")
 
     try {
-      const templateParams = {
+      // Send notification email to you (the website owner)
+      const notificationParams = {
         name: formData.name,
         email: formData.email,
+        phone: formData.phone,
         business: formData.business,
         message: formData.message,
         selectedDate,
@@ -40,7 +43,7 @@ export default function Consultation() {
       await emailjs.send(
         'service_upf1i8c',
         'template_9pkc8oh',
-        templateParams,
+        notificationParams,
         'pS62Q5qwoLbBSDA4I'
       )
 
@@ -195,6 +198,19 @@ export default function Consultation() {
                 </div>
 
                 <div>
+                  <label className="block text-sm font-medium text-white mb-2">Phone Number *</label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    required
+                    value={formData.phone}
+                    onChange={handleInputChange}
+                    className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:border-white/40 transition-colors"
+                    placeholder="Your phone number"
+                  />
+                </div>
+
+                <div>
                   <label className="block text-sm font-medium text-white mb-2">Business Name (Optional)</label>
                   <input
                     type="text"
@@ -220,7 +236,7 @@ export default function Consultation() {
 
                 <button
                   type="submit"
-                  disabled={!selectedDate || !selectedTime || !formData.name || !formData.email || isLoading}
+                  disabled={!selectedDate || !selectedTime || !formData.name || !formData.email || !formData.phone || isLoading}
                   className="w-full px-8 py-4 rounded-xl bg-white text-black font-medium text-sm transition-all duration-200 hover:bg-white/90 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {isLoading ? "Sending..." : "Request Free Consultation"}
