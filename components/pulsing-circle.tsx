@@ -40,7 +40,7 @@ export default function PulsingCircle() {
           </defs>
           <text className="text-sm fill-white/80 instrument">
             <textPath href="#circle" startOffset="0%">
-              Professional Web Development • Build Trust Online • Custom Websites • Mobile Friendly •
+             
             </textPath>
           </text>
         </motion.svg>
