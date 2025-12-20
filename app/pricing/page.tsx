@@ -30,7 +30,7 @@ export default function Pricing() {
           {/* Description */}
           <p className="text-sm font-light text-white/70 mb-12 leading-relaxed max-w-2xl mx-auto">
             Every project is unique, so pricing depends on your specific needs. I offer transparent quotes with no hidden fees.
-            All work includes ongoing support and honest advice.
+            All work includes ongoing support and honest advice. Prices are negotiable based on project requirements.
           </p>
 
           {/* Pricing Cards */}
@@ -39,7 +39,7 @@ export default function Pricing() {
             <div className="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
               <div className="text-3xl mb-4">📄</div>
               <h3 className="text-xl font-medium text-white mb-2">Landing Page</h3>
-              <div className="text-3xl font-bold text-white mb-4">$499</div>
+              <div className="text-3xl font-bold text-white mb-4">Rs 8k</div>
               <p className="text-sm text-white/70 mb-6">Perfect for promotions, events, or simple online presence.</p>
               <ul className="text-left text-sm text-white/70 space-y-2 mb-6">
                 <li>• Single-page responsive design</li>
@@ -59,7 +59,7 @@ export default function Pricing() {
               </div>
               <div className="text-3xl mb-4">🏢</div>
               <h3 className="text-xl font-medium text-white mb-2">Business Website</h3>
-              <div className="text-3xl font-bold text-white mb-4">$1,299</div>
+              <div className="text-3xl font-bold text-white mb-4">Rs 20k</div>
               <p className="text-sm text-white/70 mb-6">Complete multi-page website for small businesses.</p>
               <ul className="text-left text-sm text-white/70 space-y-2 mb-6">
                 <li>• Up to 5 pages</li>
@@ -77,7 +77,7 @@ export default function Pricing() {
             <div className="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
               <div className="text-3xl mb-4">🚀</div>
               <h3 className="text-xl font-medium text-white mb-2">Custom Solution</h3>
-              <div className="text-3xl font-bold text-white mb-4">From $2,499</div>
+              <div className="text-3xl font-bold text-white mb-4">Rs 40k</div>
               <p className="text-sm text-white/70 mb-6">Advanced features, e-commerce, or complex requirements.</p>
               <ul className="text-left text-sm text-white/70 space-y-2 mb-6">
                 <li>• Custom functionality</li>
