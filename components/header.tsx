@@ -1,6 +1,7 @@
 "use client"
 
 import { usePathname } from "next/navigation"
+import Image from "next/image"
 
 export default function Header() {
   const pathname = usePathname()
@@ -8,7 +9,13 @@ export default function Header() {
     <header className="relative z-20 flex items-center justify-between p-6">
       {/* Logo */}
       <div className="flex items-center">
-        <span className="text-white font-light text-lg">Rayyan Web Studio</span>
+        <Image
+          src="/sapotoinfosys_logo.png"
+          alt="Sapoto Infosys Logo"
+          width={150}
+          height={50}
+          className="h-8 w-auto"
+        />
       </div>
 
       {/* Navigation */}
