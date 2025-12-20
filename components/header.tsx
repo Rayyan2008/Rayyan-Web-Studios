@@ -12,9 +12,9 @@ export default function Header() {
         <Image
           src="/sapotoinfosys_logo-removebg.png"
           alt="Sapoto Infosys Logo"
-          width={180}
-          height={60}
-          className="h-12 w-auto"
+          width={240}
+          height={80}
+          className="h-16 w-auto brightness-0 invert"
         />
       </div>
 

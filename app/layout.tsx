@@ -29,7 +29,7 @@ const playfairDisplay = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "Rayyan Web Studio - Professional Websites for Small Businesses",
+  title: "Sapoto Infosys - Professional Websites for Small Businesses",
   description: "Freelance web developer specializing in custom websites, landing pages, and redesigns for small businesses. Build trust, credibility, and grow your online presence.",
   generator: "Next.js",
   icons: {

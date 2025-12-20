@@ -132,15 +132,15 @@ export default function Portfolio() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10">
                 <p className="text-sm text-white/70 mb-4 italic">
-                  "Rayyan transformed our outdated website into a modern, professional site that actually brings in customers.
-                  His communication was excellent and he delivered exactly what we needed."
+                  "Sapoto Infosys transformed our outdated website into a modern, professional site that actually brings in customers.
+                  Their communication was excellent and they delivered exactly what we needed."
                 </p>
                 <div className="text-sm font-medium text-white">Sarah Johnson</div>
                 <div className="text-xs text-white/60">Restaurant Owner</div>
               </div>
               <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10">
                 <p className="text-sm text-white/70 mb-4 italic">
-                  "Working with Rayyan was a great experience. He understood our business needs and created a website
+                  "Working with Sapoto Infosys was a great experience. They understood our business needs and created a website
                   that perfectly represents our brand. Highly recommend!"
                 </p>
                 <div className="text-sm font-medium text-white">Shaan</div>
