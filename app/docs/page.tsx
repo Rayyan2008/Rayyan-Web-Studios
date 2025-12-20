@@ -39,14 +39,14 @@ export default function Portfolio() {
             <div className="group">
               <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 h-full">
                 <div className="text-3xl mb-4">🏪</div>
-                <h3 className="text-lg font-medium text-white mb-2">Local Restaurant Website</h3>
-                <p className="text-sm text-white/70 mb-4">Complete business website with menu, reservations, and online ordering integration.</p>
+                <h3 className="text-lg font-medium text-white mb-2">The Yellow Kitchen</h3>
+                <p className="text-sm text-white/70 mb-4">Complete business website for The Yellow Kitchen with menu, reservations, and online ordering integration.</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">React</span>
                   <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">Next.js</span>
                   <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">Responsive</span>
                 </div>
-                <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">View Project →</a>
+                <a href="https://the-yellow-kitchen-shaan.vercel.app/" className="text-sm text-white/60 hover:text-white transition-colors">View Project →</a>
               </div>
             </div>
 
@@ -143,8 +143,8 @@ export default function Portfolio() {
                   "Working with Rayyan was a great experience. He understood our business needs and created a website
                   that perfectly represents our brand. Highly recommend!"
                 </p>
-                <div className="text-sm font-medium text-white">Mike Chen</div>
-                <div className="text-xs text-white/60">Consulting Firm Owner</div>
+                <div className="text-sm font-medium text-white">Shaan</div>
+                <div className="text-xs text-white/60">The Yellow Kitchen Owner</div>
               </div>
             </div>
           </div>
