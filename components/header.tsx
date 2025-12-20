@@ -10,11 +10,11 @@ export default function Header() {
       {/* Logo */}
       <div className="flex items-center">
         <Image
-          src="/sapotoinfosys_logo.png"
+          src="/sapotoinfosys_logo-removebg.png"
           alt="Sapoto Infosys Logo"
-          width={150}
-          height={50}
-          className="h-8 w-auto"
+          width={120}
+          height={40}
+          className="h-10 w-auto"
         />
       </div>
 
