@@ -2,6 +2,7 @@
 
 import Header from "@/components/header"
 import ShaderBackground from "@/components/shader-background"
+import { DollarSign, FileText, Building, Rocket, Check, X } from "lucide-react"
 
 export default function Pricing() {
   return (
@@ -17,7 +18,7 @@ export default function Pricing() {
             }}
           >
             <div className="absolute top-0 left-1 right-1 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent rounded-full" />
-            <span className="text-white/90 text-xs font-light relative z-10">💰 Transparent Pricing for Quality Work</span>
+            <span className="text-white/90 text-xs font-light relative z-10"><DollarSign className="inline w-4 h-4 mr-1" /> Transparent Pricing for Quality Work</span>
           </div>
 
           {/* Main Heading */}
@@ -36,8 +37,8 @@ export default function Pricing() {
           {/* Pricing Cards */}
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             {/* Basic Package */}
-            <div className="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
-              <div className="text-3xl mb-4">📄</div>
+            <div className="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 text-center">
+              <FileText className="w-8 h-8 mb-4 text-white inline-block" />
               <h3 className="text-xl font-medium text-white mb-2">Landing Page</h3>
               <div className="text-3xl font-bold text-white mb-4">Rs 8k</div>
               <p className="text-sm text-white/70 mb-6">Perfect for promotions, events, or simple online presence.</p>
@@ -53,11 +54,11 @@ export default function Pricing() {
             </div>
 
             {/* Business Package */}
-            <div className="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/20 hover:bg-white/15 transition-all duration-300 relative">
+            <div className="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/20 hover:bg-white/15 transition-all duration-300 relative text-center">
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 px-3 py-1 bg-white text-black text-xs font-medium rounded-full">
                 Most Popular
               </div>
-              <div className="text-3xl mb-4">🏢</div>
+              <Building className="w-8 h-8 mb-4 text-white inline-block" />
               <h3 className="text-xl font-medium text-white mb-2">Business Website</h3>
               <div className="text-3xl font-bold text-white mb-4">Rs 20k</div>
               <p className="text-sm text-white/70 mb-6">Complete multi-page website for small businesses.</p>
@@ -74,8 +75,8 @@ export default function Pricing() {
             </div>
 
             {/* Custom Package */}
-            <div className="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
-              <div className="text-3xl mb-4">🚀</div>
+            <div className="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 text-center">
+              <Rocket className="w-8 h-8 mb-4 text-white inline-block" />
               <h3 className="text-xl font-medium text-white mb-2">Custom Solution</h3>
               <div className="text-3xl font-bold text-white mb-4">Rs 40k</div>
               <p className="text-sm text-white/70 mb-6">Advanced features, e-commerce, or complex requirements.</p>

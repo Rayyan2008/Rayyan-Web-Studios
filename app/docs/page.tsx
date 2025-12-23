@@ -2,6 +2,7 @@
 
 import Header from "@/components/header"
 import ShaderBackground from "@/components/shader-background"
+import { Store, Apple, ShoppingCart } from "lucide-react"
 
 export default function Portfolio() {
   return (
@@ -38,7 +39,7 @@ export default function Portfolio() {
             {/* Project 1 */}
             <div className="group">
               <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 h-full">
-                <div className="text-3xl mb-4">🏪</div>
+                <Store className="w-8 h-8 mb-4 text-white" />
                 <h3 className="text-lg font-medium text-white mb-2">The Yellow Kitchen</h3>
                 <p className="text-sm text-white/70 mb-4">Complete business website for The Yellow Kitchen with menu, reservations, and online ordering integration.</p>
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -53,22 +54,22 @@ export default function Portfolio() {
             {/* Project 2 */}
             <div className="group">
               <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 h-full">
-                <div className="text-3xl mb-4">💼</div>
-                <h3 className="text-lg font-medium text-white mb-2">Consulting Firm Landing Page</h3>
-                <p className="text-sm text-white/70 mb-4">High-converting landing page that increased client inquiries by 150%.</p>
+                <Apple className="w-8 h-8 mb-4 text-white" />
+                <h3 className="text-lg font-medium text-white mb-2">Calorie Tracker Web App</h3>
+                <p className="text-sm text-white/70 mb-4">Web application for tracking daily calorie intake, logging meals, analyzing nutrition, and monitoring progress towards fitness goals.</p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">HTML/CSS</span>
-                  <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">JavaScript</span>
-                  <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">SEO</span>
+                  <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">React</span>
+                  <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">Next.js</span>
+                  <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">Database</span>
                 </div>
-                <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">View Project →</a>
+                <a href="https://kalories.vercel.app" className="text-sm text-white/60 hover:text-white transition-colors">View Project →</a>
               </div>
             </div>
 
             {/* Project 3 */}
             <div className="group">
               <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 h-full">
-                <div className="text-3xl mb-4">🛍️</div>
+                <ShoppingCart className="w-8 h-8 mb-4 text-white" />
                 <h3 className="text-lg font-medium text-white mb-2">E-commerce Store</h3>
                 <p className="text-sm text-white/70 mb-4">Full online store with payment processing, inventory management, and mobile optimization.</p>
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -76,54 +77,11 @@ export default function Portfolio() {
                   <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">Custom Theme</span>
                   <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">Analytics</span>
                 </div>
-                <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">View Project →</a>
+                <a href="https://shopcopyright.com" className="text-sm text-white/60 hover:text-white transition-colors">View Project →</a>
               </div>
             </div>
 
-            {/* Project 4 */}
-            <div className="group">
-              <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 h-full">
-                <div className="text-3xl mb-4">🏥</div>
-                <h3 className="text-lg font-medium text-white mb-2">Medical Practice Website</h3>
-                <p className="text-sm text-white/70 mb-4">Professional healthcare website with appointment booking and patient portal.</p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">WordPress</span>
-                  <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">PHP</span>
-                  <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">HIPAA Compliant</span>
-                </div>
-                <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">View Project →</a>
-              </div>
-            </div>
 
-            {/* Project 5 */}
-            <div className="group">
-              <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 h-full">
-                <div className="text-3xl mb-4">🎓</div>
-                <h3 className="text-lg font-medium text-white mb-2">Educational Platform</h3>
-                <p className="text-sm text-white/70 mb-4">Learning management system with course content, progress tracking, and certifications.</p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">React</span>
-                  <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">Node.js</span>
-                  <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">Database</span>
-                </div>
-                <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">View Project →</a>
-              </div>
-            </div>
-
-            {/* Project 6 */}
-            <div className="group">
-              <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 h-full">
-                <div className="text-3xl mb-4">🔄</div>
-                <h3 className="text-lg font-medium text-white mb-2">Website Redesign</h3>
-                <p className="text-sm text-white/70 mb-4">Complete overhaul of outdated site, improving user experience and conversion rates by 200%.</p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">UI/UX Design</span>
-                  <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">Performance</span>
-                  <span className="px-2 py-1 bg-white/10 rounded text-xs text-white/80">SEO</span>
-                </div>
-                <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">View Project →</a>
-              </div>
-            </div>
           </div>
 
           {/* Testimonials */}

@@ -2,6 +2,7 @@
 
 import Header from "@/components/header"
 import ShaderBackground from "@/components/shader-background"
+import { Sparkles, Building, FileText, RefreshCw, Smartphone, Rocket, Wrench } from "lucide-react"
 
 export default function Features() {
   return (
@@ -17,7 +18,7 @@ export default function Features() {
             }}
           >
             <div className="absolute top-0 left-1 right-1 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent rounded-full" />
-            <span className="text-white/90 text-xs font-light relative z-10">🌟 Professional Web Development Services</span>
+            <span className="text-white/90 text-xs font-light relative z-10"><Sparkles className="inline w-4 h-4 mr-1" /> Professional Web Development Services</span>
           </div>
 
           {/* Main Heading */}
@@ -36,43 +37,43 @@ export default function Features() {
           {/* Features Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {/* Feature 1 */}
-            <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
-              <div className="text-2xl mb-4">🏢</div>
+            <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 text-center">
+              <Building className="w-8 h-8 mb-4 text-white inline-block" />
               <h3 className="text-lg font-medium text-white mb-2">Business Websites</h3>
               <p className="text-sm text-white/70">Multi-page professional websites that showcase your services and build credibility with potential customers.</p>
             </div>
 
             {/* Feature 2 */}
-            <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
-              <div className="text-2xl mb-4">📄</div>
+            <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 text-center">
+              <FileText className="w-8 h-8 mb-4 text-white inline-block" />
               <h3 className="text-lg font-medium text-white mb-2">Landing Pages</h3>
               <p className="text-sm text-white/70">Single-page designs optimized for conversions, perfect for promotions, events, or specific campaigns.</p>
             </div>
 
             {/* Feature 3 */}
-            <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
-              <div className="text-2xl mb-4">🔄</div>
+            <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 text-center">
+              <RefreshCw className="w-8 h-8 mb-4 text-white inline-block" />
               <h3 className="text-lg font-medium text-white mb-2">Website Redesign</h3>
               <p className="text-sm text-white/70">Transform outdated websites into modern, professional sites that work harder for your business.</p>
             </div>
 
             {/* Feature 4 */}
-            <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
-              <div className="text-2xl mb-4">📱</div>
+            <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 text-center">
+              <Smartphone className="w-8 h-8 mb-4 text-white inline-block" />
               <h3 className="text-lg font-medium text-white mb-2">Mobile-Friendly</h3>
               <p className="text-sm text-white/70">Responsive designs that look great and work perfectly on all devices, from phones to desktops.</p>
             </div>
 
             {/* Feature 5 */}
-            <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
-              <div className="text-2xl mb-4">🚀</div>
+            <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 text-center">
+              <Rocket className="w-8 h-8 mb-4 text-white inline-block" />
               <h3 className="text-lg font-medium text-white mb-2">SEO Optimization</h3>
               <p className="text-sm text-white/70">Basic search engine optimization to help your website rank better and attract more visitors.</p>
             </div>
 
             {/* Feature 6 */}
-            <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
-              <div className="text-2xl mb-4">🛠️</div>
+            <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 text-center">
+              <Wrench className="w-8 h-8 mb-4 text-white inline-block" />
               <h3 className="text-lg font-medium text-white mb-2">Ongoing Support</h3>
               <p className="text-sm text-white/70">Optional maintenance and small updates to keep your website current and functioning smoothly.</p>
             </div>
