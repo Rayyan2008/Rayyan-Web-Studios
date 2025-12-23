@@ -96,7 +96,7 @@ export default function Portfolio() {
                   "Sapoto Infosys transformed our outdated website into a modern, professional site that actually brings in customers.
                   Their communication was excellent and they delivered exactly what we needed."
                 </p>
-                <div className="text-sm font-medium text-white">Sarah Johnson</div>
+                <div className="text-sm font-medium text-white">Aarav Sharma</div>
                 <div className="text-xs text-white/60">Restaurant Owner</div>
               </div>
               <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10">
