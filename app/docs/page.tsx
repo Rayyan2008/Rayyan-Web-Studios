@@ -2,7 +2,7 @@
 
 import Header from "@/components/header"
 import ShaderBackground from "@/components/shader-background"
-import { Store, Apple, ShoppingCart, Code, Palette, Zap, Users } from "lucide-react"
+import { Store, Apple, ShoppingCart, Code, Palette, Zap, Users, FolderOpen } from "lucide-react"
 
 export default function Portfolio() {
   return (
@@ -12,13 +12,16 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto">
           {/* Badge */}
           <div
-            className="inline-flex items-center px-3 py-1 rounded-full bg-white/5 backdrop-blur-sm mb-8 relative mx-auto"
+            className="flex items-center justify-center px-3 py-1 rounded-full bg-white/5 backdrop-blur-sm mb-8 relative mx-auto"
             style={{
               filter: "url(#glass-effect)",
             }}
           >
             <div className="absolute top-0 left-1 right-1 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent rounded-full" />
-            <span className="text-white/90 text-xs font-light relative z-10">📂 My Portfolio & Work</span>
+            <span className="text-white/90 text-xs font-light relative z-10 flex items-center">
+              <FolderOpen className="w-4 h-4 mr-1" />
+              My Portfolio & Work
+            </span>
           </div>
 
           {/* Main Heading */}

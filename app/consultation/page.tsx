@@ -4,6 +4,7 @@ import { useState } from "react"
 import Header from "@/components/header"
 import ShaderBackground from "@/components/shader-background"
 import emailjs from '@emailjs/browser'
+import { Calendar } from "lucide-react"
 
 export default function Consultation() {
   const [selectedDate, setSelectedDate] = useState("")
@@ -93,13 +94,16 @@ export default function Consultation() {
         <div className="max-w-4xl mx-auto">
           {/* Badge */}
           <div
-            className="inline-flex items-center px-3 py-1 rounded-full bg-white/5 backdrop-blur-sm mb-8 relative mx-auto"
+            className="flex items-center justify-center px-3 py-1 rounded-full bg-white/5 backdrop-blur-sm mb-8 relative mx-auto"
             style={{
               filter: "url(#glass-effect)",
             }}
           >
             <div className="absolute top-0 left-1 right-1 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent rounded-full" />
-            <span className="text-white/90 text-xs font-light relative z-10">📅 Free Website Consultation</span>
+            <span className="text-white/90 text-xs font-light relative z-10 flex items-center">
+              <Calendar className="w-4 h-4 mr-1" />
+              Free Website Consultation
+            </span>
           </div>
 
           {/* Main Heading */}
