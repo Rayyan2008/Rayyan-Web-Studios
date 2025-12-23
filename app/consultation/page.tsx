@@ -158,6 +158,14 @@ export default function Consultation() {
                   <p className="text-white font-medium">{selectedDate} at {selectedTime}</p>
                 </div>
               )}
+
+              {/* Email Contact Card */}
+              <div className="p-4 rounded-xl bg-white/5 border border-white/20">
+                <p className="text-sm text-white/70 mb-2">Prefer to email directly?</p>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=team.sapotoinfosys@gmail.com&su=Free Website Consultation Request&body=Hi,%0A%0AI would like to request a free website consultation.%0A%0AName: [Your Name]%0ABusiness Name: [Your Business Name]%0AContact Details: [Your Phone/Email]%0ABusiness Description: [Brief description of your business/website needs]%0A%0APlease let me know your availability for a consultation.%0A%0ABest regards," target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-white/80 transition-colors">
+                  team.sapotoinfosys@gmail.com
+                </a>
+              </div>
             </div>
 
             {/* Form Section */}
