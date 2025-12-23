@@ -32,6 +32,7 @@ export default function Pricing() {
           <p className="text-sm font-light text-white/70 mb-12 leading-relaxed max-w-2xl mx-auto">
             Every project is unique, so pricing depends on your specific needs. I offer transparent quotes with no hidden fees.
             All work includes ongoing support and honest advice. Prices are negotiable based on project requirements.
+            These are starting templates - final pricing depends on your specific needs and scope.
           </p>
 
           {/* Pricing Cards */}
@@ -40,7 +41,7 @@ export default function Pricing() {
             <div className="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 text-center">
               <FileText className="w-8 h-8 mb-4 text-white inline-block" />
               <h3 className="text-xl font-medium text-white mb-2">Landing Page</h3>
-              <div className="text-3xl font-bold text-white mb-4">Rs 8k</div>
+              <div className="text-3xl font-bold text-white mb-4">Starting at Rs 8k</div>
               <p className="text-sm text-white/70 mb-6">Perfect for promotions, events, or simple online presence.</p>
               <ul className="text-left text-sm text-white/70 space-y-2 mb-6">
                 <li>• Single-page responsive design</li>
@@ -48,9 +49,9 @@ export default function Pricing() {
                 <li>• Contact form integration</li>
                 <li>• 1 month free support</li>
               </ul>
-              <button className="w-full px-6 py-3 rounded-full bg-white text-black font-normal text-sm transition-all duration-200 hover:bg-white/90">
+              <a href="/consultation" className="w-full px-6 py-3 rounded-full bg-white text-black font-normal text-sm transition-all duration-200 hover:bg-white/90 inline-block text-center">
                 Get Started
-              </button>
+              </a>
             </div>
 
             {/* Business Package */}
@@ -60,7 +61,7 @@ export default function Pricing() {
               </div>
               <Building className="w-8 h-8 mb-4 text-white inline-block" />
               <h3 className="text-xl font-medium text-white mb-2">Business Website</h3>
-              <div className="text-3xl font-bold text-white mb-4">Rs 20k</div>
+              <div className="text-3xl font-bold text-white mb-4">Starting at Rs 20k</div>
               <p className="text-sm text-white/70 mb-6">Complete multi-page website for small businesses.</p>
               <ul className="text-left text-sm text-white/70 space-y-2 mb-6">
                 <li>• Up to 5 pages</li>
@@ -69,16 +70,16 @@ export default function Pricing() {
                 <li>• 3 months free support</li>
                 <li>• Google Analytics setup</li>
               </ul>
-              <button className="w-full px-6 py-3 rounded-full bg-white text-black font-normal text-sm transition-all duration-200 hover:bg-white/90">
+              <a href="/consultation" className="w-full px-6 py-3 rounded-full bg-white text-black font-normal text-sm transition-all duration-200 hover:bg-white/90 inline-block text-center">
                 Get Started
-              </button>
+              </a>
             </div>
 
             {/* Custom Package */}
             <div className="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 text-center">
               <Rocket className="w-8 h-8 mb-4 text-white inline-block" />
               <h3 className="text-xl font-medium text-white mb-2">Custom Solution</h3>
-              <div className="text-3xl font-bold text-white mb-4">Rs 40k</div>
+              <div className="text-3xl font-bold text-white mb-4">Starting at Rs 40k</div>
               <p className="text-sm text-white/70 mb-6">Advanced features, e-commerce, or complex requirements.</p>
               <ul className="text-left text-sm text-white/70 space-y-2 mb-6">
                 <li>• Custom functionality</li>
@@ -87,9 +88,9 @@ export default function Pricing() {
                 <li>• 6 months free support</li>
                 <li>• Performance optimization</li>
               </ul>
-              <button className="w-full px-6 py-3 rounded-full bg-white text-black font-normal text-sm transition-all duration-200 hover:bg-white/90">
+              <a href="/consultation" className="w-full px-6 py-3 rounded-full bg-white text-black font-normal text-sm transition-all duration-200 hover:bg-white/90 inline-block text-center">
                 Get Started
-              </button>
+              </a>
             </div>
           </div>
 
@@ -111,9 +112,9 @@ export default function Pricing() {
             <a href="/" className="px-8 py-3 rounded-full bg-transparent border border-white/30 text-white font-normal text-sm transition-all duration-200 hover:bg-white/10 hover:border-white/50">
               Back to Home
             </a>
-            <button className="px-8 py-3 rounded-full bg-white text-black font-normal text-sm transition-all duration-200 hover:bg-white/90">
+            <a href="/consultation" className="px-8 py-3 rounded-full bg-white text-black font-normal text-sm transition-all duration-200 hover:bg-white/90 inline-block">
               Free Consultation
-            </button>
+            </a>
           </div>
         </div>
       </main>

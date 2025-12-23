@@ -2,7 +2,7 @@
 
 import Header from "@/components/header"
 import ShaderBackground from "@/components/shader-background"
-import { Store, Apple, ShoppingCart } from "lucide-react"
+import { Store, Apple, ShoppingCart, Code, Palette, Zap, Users } from "lucide-react"
 
 export default function Portfolio() {
   return (
@@ -112,22 +112,22 @@ export default function Portfolio() {
             <h2 className="text-2xl font-medium text-white text-center mb-8">My Skills & Expertise</h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="text-center">
-                <div className="text-3xl mb-2">💻</div>
+                <Code className="w-8 h-8 mb-4 text-white inline-block" />
                 <h3 className="text-lg font-medium text-white mb-2">Frontend Development</h3>
                 <p className="text-sm text-white/70">React, Next.js, HTML, CSS, JavaScript</p>
               </div>
               <div className="text-center">
-                <div className="text-3xl mb-2">🎨</div>
+                <Palette className="w-8 h-8 mb-4 text-white inline-block" />
                 <h3 className="text-lg font-medium text-white mb-2">UI/UX Design</h3>
                 <p className="text-sm text-white/70">User-centered design, responsive layouts</p>
               </div>
               <div className="text-center">
-                <div className="text-3xl mb-2">🚀</div>
+                <Zap className="w-8 h-8 mb-4 text-white inline-block" />
                 <h3 className="text-lg font-medium text-white mb-2">Performance Optimization</h3>
                 <p className="text-sm text-white/70">Fast loading, SEO, accessibility</p>
               </div>
               <div className="text-center">
-                <div className="text-3xl mb-2">🤝</div>
+                <Users className="w-8 h-8 mb-4 text-white inline-block" />
                 <h3 className="text-lg font-medium text-white mb-2">Client Communication</h3>
                 <p className="text-sm text-white/70">Transparent, honest, reliable service</p>
               </div>
@@ -142,9 +142,9 @@ export default function Portfolio() {
               <a href="/" className="px-8 py-3 rounded-full bg-transparent border border-white/30 text-white font-normal text-sm transition-all duration-200 hover:bg-white/10 hover:border-white/50">
                 Back to Home
               </a>
-              <button className="px-8 py-3 rounded-full bg-white text-black font-normal text-sm transition-all duration-200 hover:bg-white/90">
+              <a href="/consultation" className="px-8 py-3 rounded-full bg-white text-black font-normal text-sm transition-all duration-200 hover:bg-white/90 inline-block">
                 Get Free Consultation
-              </button>
+              </a>
             </div>
           </div>
         </div>
