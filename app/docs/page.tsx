@@ -97,7 +97,7 @@ export default function Portfolio() {
                   Their communication was excellent and they delivered exactly what we needed."
                 </p>
                 <div className="text-sm font-medium text-white">Aarav Sharma</div>
-                <div className="text-xs text-white/60">Restaurant Owner</div>
+                <div className="text-xs text-white/60">Entrepreneur</div>
               </div>
               <div className="p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10">
                 <p className="text-sm text-white/70 mb-4 italic">
