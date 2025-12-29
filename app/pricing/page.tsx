@@ -41,7 +41,7 @@ export default function Pricing() {
             <div className="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 text-center">
               <FileText className="w-8 h-8 mb-4 text-white inline-block" />
               <h3 className="text-xl font-medium text-white mb-2">Landing Page</h3>
-              <div className="text-3xl font-bold text-white mb-4">Starting at Rs 8k</div>
+              <div className="text-3xl font-bold text-white mb-4">According to your budget!</div>
               <p className="text-sm text-white/70 mb-6">Perfect for promotions, events, or simple online presence.</p>
               <ul className="text-left text-sm text-white/70 space-y-2 mb-6">
                 <li>• Single-page responsive design</li>
@@ -61,7 +61,7 @@ export default function Pricing() {
               </div>
               <Building className="w-8 h-8 mb-4 text-white inline-block" />
               <h3 className="text-xl font-medium text-white mb-2">Business Website</h3>
-              <div className="text-3xl font-bold text-white mb-4">Starting at Rs 20k</div>
+              <div className="text-3xl font-bold text-white mb-4">Negotiable based on scope</div>
               <p className="text-sm text-white/70 mb-6">Complete multi-page website for small businesses.</p>
               <ul className="text-left text-sm text-white/70 space-y-2 mb-6">
                 <li>• Up to 5 pages</li>
@@ -79,7 +79,7 @@ export default function Pricing() {
             <div className="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300 text-center">
               <Rocket className="w-8 h-8 mb-4 text-white inline-block" />
               <h3 className="text-xl font-medium text-white mb-2">Custom Solution</h3>
-              <div className="text-3xl font-bold text-white mb-4">Starting at Rs 40k</div>
+              <div className="text-3xl font-bold text-white mb-4">Starting at Rs 25k</div>
               <p className="text-sm text-white/70 mb-6">Advanced features, e-commerce, or complex requirements.</p>
               <ul className="text-left text-sm text-white/70 space-y-2 mb-6">
                 <li>• Custom functionality</li>
